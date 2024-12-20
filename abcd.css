@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+
+
+    height: 80vh;
+    /* width:100vw; */
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    position: relative;
+
+
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.4;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+
+nav {
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0vh 20vw;
+    /* position:sticky;
+    top:0px; */
+}
+
+.logo {
+    height: 6vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 10;
+
+}
+
+button {
+    margin: 0px;
+    position: relative;
+    z-index: 10;
+    padding: 5px;
+}
+
+.title {
+    color: white;
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    gap: 5px;
+    padding: 0px 20px;
+
+
+}
+
+.enjoy {
+    font-weight: 900;
+    font-size: 48px;
+
+}
+
+.join {
+
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.separation {
+    height: 6px;
+    /* width: 100%; */
+    background-color: darkgray;
+    opacity: 0.5;
+
+}
+
+.zero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px 278px;
+}
+
+.email {
+    border-radius: 2px;
+    padding: 5px 20px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-color: rgba(23, 23, 23, 0.7);
+    margin: 40px;
+    color: white;
+
+
+
+}
+
+.email:hover {
+    border-color: white;
+
+
+}
+
+
+
+.btn {
+    font-weight: bolder;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border-color: white;
+    border-radius: 4px;
+}
+
+.w_btn {
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border-color: rgba(23, 23, 23, 0.7);
+    font-weight: lighter;
+}
+
+.red_btn {
+
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border-color: red
+}
+
+.red_btn_sm {
+    background-color: red;
+    border-color: red;
+    color: white;
+    margin-left: 5px;
+    padding: 5px 20px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* width:100%; */
+    background-color: black;
+    color: white;
+    gap: 30px;
+
+
+}
+
+.tvimage {
+
+    position: relative;
+    top: 0px;
+
+}
+
+.tv {
+    height: 40vh;
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+
+
+
+}
+
+.stranger {
+    position: absolute;
+    top: 11px;
+    right: 38px;
+    height: 33vh;
+    width: 24vw;
+    z-index: 20;
+
+
+
+
+
+}
+
+.your {
+    font-weight: 800;
+    font-size: 50px;
+
+}
+
+.watch {
+    font-weight: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.padd {
+    padding: 0px 100px;
+}
+
+.faq {
+
+
+    background-color: black;
+    color: white;
+
+}
+
+h2 {
+
+    text-align: center;
+    padding: 23px;
+    font-size: 48px;
+}
+
+.faqbox {
+    display: flex;
+    background-color: hsla(0, 0%, 50%, 0.306);
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 80vh;
+    padding: 2px;
+    margin: 10px auto;
+    border: 2px solid hsla(0, 0%, 50%, 0.306);
+    border-radius: 5px;
+
+
+
+}
+
+
+
+
+
+.jugaad {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+
+/* .email2{
+    text-align: center;
+    margin:100px ;
+   
+} */
+
+/* .sardar{
+    /* height:40vh; */
+/* position:absolute;
+    bottom:40px; */
+
+/* } */
