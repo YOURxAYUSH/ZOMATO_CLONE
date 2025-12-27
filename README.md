@@ -34,7 +34,7 @@ The project aims to:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd zomato-ui-clone
+   cd ZOMATO_CLONE
    ```
 3. Open the `index.html` file in your browser to view the project.
 
